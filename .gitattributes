@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Checksummed at load time (docsgpt/utils.py); CRLF conversion breaks the hash.
+*.tiktoken -text
